@@ -18,7 +18,7 @@ public class Main {
 
         int[] c = makeArray(a1, a2);
         if (c.length == 0) {
-            logger.info("Массивы имеют несовместимый размер!");
+            logger.info("Массивы пусты или имеют несовместимый размер!");
         } else {
             logger.info("Массив сформирован!");
             logger.info(Arrays.toString(c));
